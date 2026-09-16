@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #080808;
+            color: #ffffff;
+        }
+
+        .font-gray {
+            font-family: 'IBM Plex Mono', monospace;
+            color: #9C9C9C;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1100px;
+            padding: 20px 60px;
+            background-color: #1B1B1B;
+            border-radius: 0 0 8px 8px;
+            box-sizing: border-box;
+        }
+
+        #navbar-menu {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .navbar-social {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .navbar a {
+            color: #9C9C9C;
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            transition: color 0.2s ease;
+        }
+
+        .navbar a:hover {
+            color: #ffffff;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 50px;
+            box-sizing: border-box;
+        }
+
+        .profile h1 {
+            margin: 5px 0;
+        }
+
+        .profile p {
+            line-height: 1.6;
+            max-width: 500px;
+        }
+
+        .showimages img {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+        }
+
+        .button {
+            display: inline-block;
+            background-color:#3F8E00;
+            color: #ffffff;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 6px;
+            box-shadow: 0 2px 15px #3F8E00; 
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /*บ-ล ซ-ข*/
+        }
+
+        .logo img {
+            border: 0.5px solid #1B1B1B;
+            border-radius: 5px;
+            padding: 20px 40px;
+            height: 20px;
+            object-fit: contain;
+        }
+
+        .end {
+            align-items: center;
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="font-gray" id="navbar-menu">
+                <a href="#">Home</a>
+                <a href="#">Case studies</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Recent work</a>
+                <a href="#">Get In Touch</a>
+            </div>
+
+            <div class="navbar-social">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <!-- Profile -->
+        <div class="profile">
+            <div>
+                <h1 style="font-family: 'Raleway', monospace;">6619410056</h1>
+                <h1 style="font-family: 'Raleway', monospace;">Sakunna Sangrutsamee</h1>
+                <p class="font-gray">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem odit labore unde nemo
+                    omnis sequi hic sit laudantium repellendus recusandae vitae ea laborum, ipsa nisi eos autem.
+                </p>
+                <div class="button">
+                    <a href="#" style="color: #ffffff; text-decoration: none;">Let's get started &gt;</a>
+                </div>
+            </div>
+            <div class="showimages">
+                <img src="images/P1.jpg" alt="profile" />
+            </div>
+        </div>
+
+        <!-- end -->
+        <div class="end">
+            <p style="color: #FFFFFF; font-family: 'IBM Plex Mono', monospace;">Worked with</p>
+            <div class="logo">
+                <img src="/images/logo1.png" alt="logo" />
+                <img src="/images/logo2.png" alt="logo" />
+                <img src="/images/logo3.png" alt="logo" />
+                <img src="/images/logo4.png" alt="logo" />
+                <img src="/images/logo5.png" alt="logo" />
+            </div>
+        </div>
+</body>
+
+</html>
