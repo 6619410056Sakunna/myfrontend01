@@ -21,8 +21,8 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        itim: ["Itim"],
-                        monomaniac: ["Monomaniac One"]
+                        inter: ["Inter"],
+                        lora: ["Lora"],
                     },
                 },
             },
@@ -31,41 +31,42 @@
 
 </head>
 
-<body class="bg-stone-950">
+<body class="bg-black ">
     <div class="">
         <!-- Navbar -->
-        <nav>
-            <div>
-                <h1> >_Sakunna SAU </h1>
+        <div class="flex ">
+            <div class="flex w-full mx-15 my-15 text-xl justify-baseline">
+                <h1 class="text-emerald-400 text-[40px] font-inter ">>_</h1>
+                <h1 class="text-white text-[40px] font-inter font-semibold"> Sakunna SAU </h1>
             </div>
-            <div>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Let's talk</a>
+            <div class="flex w-full mx-15 my-10 text-xl  gap-10 justify-end font-semibold font-inter ">
+                <a href="#" class="text-yellow-300 p-3 text-[20px]">Home</a>
+                <a href="#" class="text-white p-3 text-[20px]">About</a>
+                <a href="#" class="text-white p-3 text-[20px]">Portfolio</a>
+                <a href="#" class="text-white border-2 rounded-full px-10 py-4 text-[20px]">Let's talk</a>
             </div>
-        </nav>
+        </div>
         <!-- Profile -->
-        <div>
-            <div>
-                <h1>Full Stack Web <br> Developer !</h1>
-                <p>
-                    Hi, I'm NinniN SAU. A passionate Full Stack Web Developer based in Thailand.
+        <div class="mt-5 flex justify-around">
+            <div class="text-white mt-40">
+                <h1 class="font-lora text-[40px] font-bold mx-2">Full Stack Web <br> Developer !</h1>
+                <p class="txet-[20px] p-2 font-Inter font-stretch-normal">
+                    Hi, I'm NinniN SAU. A passionate Full Stack <br> Web Developer based in Thailand.
                 </p>
-                <div>
-                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="Behance"><i class="fa-brands fa-github"></i></a>
+                <div class="flex gap-5 mx-2 mt-2 ">
+                    <i class="fa-brands fa-linkedin-in text-[30px]"></i>
+                    <i class="fa-brands fa-github text-[30px]"></i>
                 </div>
             </div>
-            <div>
-                <img src="images/P2.png" alt="profile" />
+            <div class="text-white">
+                <img class="w-494px h-490px object-cover rounded-full " src="images/P2.png" alt="profile" />
             </div>
         </div>
 
         <!-- end -->
-        <div>
-            <p>My Tech Stacks</p>
-            <div>
+        <div class="mt-20 ">
+            <p class="text-white text-center font-inter font-semibold text-">My Tech Stacks</p>
+            <div class="flex mt-10 justify-center gap-10">
                 <img src="/images/b1.png" alt="logo" />
                 <img src="/images/b2.png" alt="logo" />
                 <img src="/images/b3.png" alt="logo" />
